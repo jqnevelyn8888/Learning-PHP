@@ -5,7 +5,7 @@
     } else if ($age <= 0) {
         echo "That wasn't a valid age";
     } else {
-        echo "DIE";
+        echo "You are not legal";
     }
 
     echo "<br>";
@@ -97,7 +97,7 @@
             echo "Your life is over";
             break;
         default:
-            echo "What the fak";
+            echo "Try again";
     }
     
     echo "<br>";
@@ -121,7 +121,7 @@
             echo "Freedom";
             break;
         default:
-            echo "Special Mama time";
+            echo "Relax";
     }
     
     echo "<br>";
@@ -177,4 +177,5 @@
         }
        
     }
+
 ?>
